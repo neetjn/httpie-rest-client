@@ -1,4 +1,4 @@
-# sga-httpie-toolkit
+# httpie-rest-client
 
 This is a fairly simple project aimed at making it easier to poke api endpoints for testing purposes.
 The only prerequesite is having httpie installed.
