@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERB=$1
+VERB=$(echo $1 | awk '{print toupper($0)}')
 HELPER="$(pwd)/../helpers/$VERB.sh"
 
 # note: setting environment variables
